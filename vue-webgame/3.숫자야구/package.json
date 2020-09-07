@@ -1,6 +1,7 @@
 {
   "name": "number-baseball",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack"
@@ -15,6 +16,5 @@
     "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  },
-  "description": ""
+  }
 }

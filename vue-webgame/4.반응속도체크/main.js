@@ -1,4 +1,4 @@
-import Vue from 'vue';      //package.json에서 설치한 vue를 가져와서 쓸 수 있다.
-import ResponseCheck from "./ResponseCheck.vue";
+import Vue from 'vue';
+import ResponseCheck from './ResponseCheck'
 
-new Vue().$mount('#root');
+new Vue(ResponseCheck).$mount('#root');
